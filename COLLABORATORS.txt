@@ -1,0 +1,24 @@
+Name: Rachel Ellinger
+Final Project
+I spent 60 hours on this project.
+
+Resources (used for coding reference, not included in report citations)
+https://medium.com/@noorfatimaafzalbutt/librosa-a-comprehensive-guide-to-audio-analysis-in-python-3f74fbb8f7f3
+https://librosa.org/doc/0.9.2/generated/librosa.feature.mfcc.html
+https://librosa.org/doc/main/generated/librosa.feature.delta.html
+https://sh-tsang.medium.com/brief-review-wav2vec-2-0-a-framework-for-self-supervised-learning-of-speech-representations-9b9a8fdab85e
+https://www.emergentmind.com/topics/layer-stratified-wav2vec2-representations
+
+I used Gemini AI to help with understanding the Kalman Filter and code design 
+guidance/troubleshooting help for a basic Kalman Filter because the example 
+from El Hizabri et al. (2026) was more complex than was appropriate for this 
+assignment. I consulted with Prof Roy and Gemini AI on how to load and use 
+wav2vec 2.0 and Pytorch to extract audio features using transformers and tensors.
+I consulted with Prof Roy regarding pyramid pooling. And I used Gemini AI to help 
+with literature review to determine which hidden state layers to extract. I 
+generally found from reading research that wav2vec 2.0 layer stratification 
+consists of spectral/acoustic features in lower layers, phonetic/prosodic 
+features in middle layers, and linguistic/semantic featues in late layers. 
+However due to limited time and computing power, I wasn't able to perform a more 
+comprehensive comparison search across different layers and their respective 
+combinations.
